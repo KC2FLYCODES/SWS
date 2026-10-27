@@ -145,7 +145,8 @@ section{padding:124px 0}
 .grade-read{text-align:right}
 .grade-read b{display:block;font-family:var(--f-display);font-weight:850;font-variation-settings:'wdth' 120;font-size:clamp(2.4rem,4.4vw,3.8rem);line-height:1;color:var(--yellow);font-variant-numeric:tabular-nums}
 .grade-read span{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--stone)}
-.grade-svg{width:100%;height:auto;overflow:visible}
+.grade-top,.grade-steps{flex-shrink:0}
+.grade-svg{width:100%;height:auto;flex:0 1 auto;min-height:0;overflow:visible}
 .grade-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:22px;border-top:1px solid var(--line-d)}
 .gs{padding:16px 16px 0 0;color:rgba(241,235,225,.35);transition:color .5s var(--ease)}
 .gs b{display:block;font-family:var(--f-display);font-weight:850;font-variation-settings:'wdth' 120;font-size:.95rem;text-transform:uppercase;margin-bottom:4px}
